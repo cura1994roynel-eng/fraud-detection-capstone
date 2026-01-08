@@ -12,6 +12,11 @@ Before running the project, make sure you have the following installed:
 - Python 3.8 or higher
 - pip (Python package manager)
 
+How to install the dependencies using pip or conda.
+   ```bash
+   pip install -r requirements.txt
+   ```
+
 ### Setting Up the Environment
 
 1. Clone this repository to your local machine:
@@ -27,7 +32,6 @@ Before running the project, make sure you have the following installed:
   cd fraud-detection-capstone
   ```
 ### Requirements
-  ```
 Create a `requirements.txt` file with the following (update based on your project):
   ```
 pandas
@@ -36,7 +40,7 @@ scikit-learn
 matplotlib
 seaborn
 jupyter
-
+  ```
 ### Usage
 ## Running the Fraud Detection Model
 1. Open a terminal or command prompt and navigate to the project directory.
@@ -78,17 +82,14 @@ fraud-detection-capstone/
 ├── README.md # Project description and instructions
 ├── requirements.txt # List of Python dependencies
 ├── .gitignore # Git ignore file
-├── data/ # Folder for datasets (consider using Git LFS)
-│ └── credit_card_transactions.csv # Dataset file
 ├── src/ # Source code for fraud detection model
-│ ├── init.py # Initializes the source code module
 │ ├── fraud_detection.py # Main script for fraud detection
 │ └── utils.py # Helper functions
 ├── notebooks/ # Jupyter notebooks for exploration
 │ ├── data_exploration.ipynb # Data exploration notebook
 │ └── model_development.ipynb # Model development notebook
-└── models/ # Folder for storing model artifacts
-└── best_model.pkl # Saved model after training
+└── data/ # Folder for datasets (consider using Git LFS)
+└── transaction_data.csv # Example dataset file
   ```
 ### Contribution Guidelines
 If you'd like to contribute to this project, please fork the repository and submit a pull request with your changes. Make sure to follow these guidelines:
